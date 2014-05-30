@@ -1,0 +1,29 @@
+{
+  "name": "angular-auth-service",
+  "main": "angular-auth-service.js",
+  "version": "0.1.0",
+  "authors": [
+    "Jack Tarantino <jack@ofspades.com>"
+  ],
+  "description": "A simple authentication service for AngularJS.",
+  "dependencies": {
+    "angular-flash": "~0.1.13"
+  },
+  "keywords": [
+    "angular",
+    "authentication",
+    "auth",
+    "login",
+    "routing"
+  ],
+  "license": "Creative Commons Attribution Share-Alike",
+  "homepage": "https://jack.ofspades.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ]
+}
