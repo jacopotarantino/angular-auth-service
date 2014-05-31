@@ -1,7 +1,7 @@
 {
   "name": "angular-auth-service",
   "main": "angular-auth-service.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     "Jack Tarantino <jack@ofspades.com>"
   ],
