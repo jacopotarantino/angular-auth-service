@@ -61,9 +61,9 @@ angular.module('angularAuthService', [
             event.preventDefault()
             element
               .find('input, textarea, select')
-              .trigger('input')
-              .trigger('change')
-              .trigger('keydown')
+              .triggerHandler('input')
+              .triggerHandler('change')
+              .triggerHandler('keydown')
             scope.$apply(attrs.ngSubmit)
 
     return $delegate

@@ -65,7 +65,10 @@ angular.module('angularAuthService', ['angular-flash.service', 'angular-flash.fl
         return function(scope, element, attrs) {
           return element.unbind('submit').bind('submit', function(event) {
             event.preventDefault();
-            element.find('input, textarea, select').trigger('input').trigger('change').trigger('keydown');
+            element.find('input, textarea, select')
+              .triggerHandler('input')
+              .triggerHandler('change')
+              .triggerHandler('keydown');
             return scope.$apply(attrs.ngSubmit);
           });
         };
